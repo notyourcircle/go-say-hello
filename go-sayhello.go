@@ -7,5 +7,5 @@ type Customer struct {
 }
 
 func SayHello(customer Customer) string {
-	return "Hello" + customer.Name
+	return "Hello " + customer.Name + " " + customer.Address + "Sedang cerah ya"
 }
