@@ -1,5 +1,11 @@
 package gosayhello
 
-func SayHello() string {
-	return "Hello"
+type Customer struct {
+	Name    string
+	Age     int
+	Address string
+}
+
+func SayHello(customer Customer) string {
+	return "Hello" + customer.Name
 }
